@@ -21,7 +21,7 @@ function ThemeToggle({ theme, onToggle }) {
   return (
     <div className="theme-toggle">
       <img
-        src={isDark ? '/assets/images/icon-sun-light.svg' : '/assets/images/icon-sun-dark.svg'}
+        src={isDark ? './assets/images/icon-sun-light.svg' : './assets/images/icon-sun-dark.svg'}
         alt=""
         width={24}
         height={24}
@@ -37,7 +37,7 @@ function ThemeToggle({ theme, onToggle }) {
         <span className="theme-toggle__knob" />
       </button>
       <img
-        src={isDark ? '/assets/images/icon-moon-light.svg' : '/assets/images/icon-moon-dark.svg'}
+        src={isDark ? './assets/images/icon-moon-light.svg' : './assets/images/icon-moon-dark.svg'}
         alt=""
         width={24}
         height={24}
@@ -154,7 +154,7 @@ function Question({
                   {isSubmitted && option === question.answer && (
                     <img
                       className="option-status"
-                      src="/assets/images/icon-correct.svg"
+                      src="./assets/images/icon-correct.svg"
                       alt="Correct"
                       width={30}
                       height={30}
@@ -165,7 +165,7 @@ function Question({
                     option !== question.answer && (
                       <img
                         className="option-status"
-                        src="/assets/images/icon-incorrect.svg"
+                        src="./assets/images/icon-incorrect.svg"
                         alt="Incorrect"
                         width={30}
                         height={30}
@@ -189,7 +189,7 @@ function Question({
 
         {showError && (
           <p className="error-msg" role="alert">
-            <img src="/assets/images/icon-error.svg" alt="" width={24} height={24} />
+            <img src="./assets/images/icon-error.svg" alt="" width={24} height={24} />
             Please select an answer
           </p>
         )}
