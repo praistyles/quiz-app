@@ -43,8 +43,8 @@ _Add a screenshot of your solution and update the path above if needed._
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/praistyles/quiz-app](https://github.com/praistyles/quiz-app)
+- Live Site URL: [https://praistyles.github.io/quiz-app/](https://praistyles.github.io/quiz-app/)
 
 ## My process
 
@@ -98,6 +98,5 @@ npm run preview  # preview the production build
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [@praistyles](https://github.com/praistyles)
+- Frontend Mentor - [@praistyles](https://www.frontendmentor.io/profile/praistyles)
