@@ -262,7 +262,7 @@ function App() {
 
     async function loadData() {
       try {
-        const res = await fetch('/data.json')
+        const res = await fetch('data.json')
         if (!res.ok) throw new Error('Failed to load quiz data')
         const data = await res.json()
         if (!cancelled) {
