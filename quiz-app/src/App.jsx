@@ -12,7 +12,7 @@ const ICON_BG = {
 
 function normalizeIcon(path) {
   if (!path) return ''
-  return path.replace(/^\.\//, '/')
+  return path.replace(/^\.\//, './')
 }
 
 function ThemeToggle({ theme, onToggle }) {
